@@ -1,1 +1,0 @@
-This bit should be included in the "my-document.md" document using the "include" command.
