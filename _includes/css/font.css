@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'focusedio';
+	src:url('../fonts/focusedio.eot');
+	src:url('../fonts/focusedio.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/focusedio.svg#focusedio') format('svg'),
+		url('../fonts/focusedio.woff') format('woff'),
+		url('../fonts/focusedio.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+	src:url('../fonts/OpenSans-Regular-webfont.eot') format('embedded-opentype'),
+		url('../fonts/OpenSans-Regular-webfont.svg') format('svg'),
+		url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+		url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'focusedio';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'focusedio';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-floppy:before {
+	content: "\53";
+}
+.icon-plus:before {
+	content: "\61";
+  font-size: 12px;
+}
+.icon-cog:before {
+	content: "\50";
+}
+.icon-folder:before {
+	content: "\46";
+}
+.icon-folder-2:before {
+	content: "\66";
+}
+.icon-folder-3:before {
+	content: "\65";
+}
+.icon-file-xml:before {
+	content: "\43";
+}
+.icon-cancel:before {
+	content: "\64";
+}
+.icon-checkmark:before {
+	content: "\63";
+}
+.icon-minus:before {
+	content: "\6d";
+}

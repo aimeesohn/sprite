@@ -1,0 +1,33 @@
+{
+    id: 'wiredcraft',
+    name: 'Wiredcraft',
+    logo: 'logo.png',
+    header: '',
+    footer: 'Wiredcraft Co. Ltd., Suite 309, 228 Meiyuan Lu Shanghai, 200020 (+86) 21 6380 2254, wiredcraft.com',
+    style: {
+        h1 {
+            color: '#111',
+            font-family: 'Helvetica',
+            font-weight: 'bold',
+            font-size: 28
+        }
+        h2 {
+            color: '#222',
+            font-family: 'Helvetica',
+            font-weight: 'bold',
+            font-size: 22
+        }
+        h3 {
+            color: '#333',
+            font-family: 'Helvetica',
+            font-weight: 'bold',
+            font-size: 16
+        }
+        body {
+            color: '#444',
+            font-family: 'Arial',
+            font-weight: 'normal',
+            font-size: 14
+        }
+    }
+}

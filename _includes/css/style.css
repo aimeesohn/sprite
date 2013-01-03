@@ -1,0 +1,24 @@
+/* General */
+html,
+body {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+body {
+  background: #efefef;
+  font-size: 12px;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+}
+
+header {
+  border-bottom: 1px dotted #eee;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
